@@ -1,9 +1,3 @@
-import React from 'react'
-import Pizza from './components/Pizza'
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Menu from './components/Menu';
-
 const pizzaData = [
   {
     name: "Focaccia",
@@ -48,19 +42,3 @@ const pizzaData = [
     soldOut: false,
   },
 ];
-
-
-
-function App() {
-  return (
-    <div>
-      <Header />
-     <Menu 
-      pizzaData={pizzaData}
-     />
-      <Footer />
-    </div>
-  )
-}
-
-export default App
