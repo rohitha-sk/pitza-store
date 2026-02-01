@@ -44,11 +44,12 @@ const pizzaData = [
     name: "Pizza Prosciutto",
     ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
     price: 18,
-    photoName: "pizzas/prosciutto.jpg",
+    photoName: "",
     soldOut: false,
   },
 ];
 
+//pizzas/prosciutto.jpg
 
 
 function App() {
